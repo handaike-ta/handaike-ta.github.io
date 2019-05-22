@@ -231,7 +231,7 @@ header{
   letter-spacing: 1px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   border-radius: 3px;
-  width:520px;
+  max-width:520px;
   margin:0 auto;
 }
 .recruit-center h1{
@@ -296,7 +296,7 @@ header{
     font-size: 14px;
     line-height: 23px;
     letter-spacing: 1px;
-    width:440px;
+    max-width:440px;
     margin:0 auto;
   }
   .recruit-center a{
