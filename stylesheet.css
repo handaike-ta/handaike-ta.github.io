@@ -1198,142 +1198,7 @@ header{
 
 }
 /*-------------------------------------------------*/
-.members{
-  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 50px;
-  color:white;
-}
-.sometani,.narita,.ootaki{
-  border-radius: 50%;
-  position: absolute;
-  top: -45%;
-  left: 25%;
-}
-.member{
-  width:290px;
-  display: inline-block;
-  border: solid 4px white;
-  margin:0 15px;
-  vertical-align: top;
-  padding:40px 40px 52px 40px;
-  position: relative;
-  margin-top: 200px;
-
-}
-.member-text{
-  text-align: left;
-}
 .member-container{
-  margin: 0 20px;
-}
-.manabu{
-  position: absolute;
-  top:-45%;
-  left:25%;
-}
-.member-text,.kind,.name{
-  font-weight: 300;
-  line-height: 26px;
-  font-size: 17px;
-  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", ���C���I, Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
-}
-.name{
-  padding:8px 0;
-}
-.mana{
-  padding-bottom:77px;
-}
-.members-headding h1{
-  padding-top: 100px;
-  padding-bottom: 35px;
-  font-weight: 600;
-  line-height: 40px;
-  font-size: 28px;
-}
-.members-headding p{
-  font-weight: 600;
-  line-height: 26px;
-  font-size: 16px;
-}
-/*---------------------------------------------------------*/
-@media(max-width:1210px){
-  .members-headding h1{
-    padding-top: 100px;
-    padding-bottom: 35px;
-    line-height: 40px;
-    font-size: 24px;
-  }
-  .members-headding p{
-    line-height: 22px;
-    font-size: 14px;
-  }
-  .member-text,.kind,.name{
-    line-height: 22px;
-    font-size: 14px;
-  }
-  .sometani,.narita,.ootaki{
-    top: -55%;
-    left: 23%;
-  }
-  .member{
-    border: solid 4px white;
-    vertical-align: top;
-    padding:40px 40px 52px 40px;
-    margin-top: 200px;
-  }
-  .manabu{
-    position: absolute;
-    top:-55%;
-    left:23%;
-  }
-}
-@media(max-width:970px){
-  .members-container{
-    width:90%;
-    margin: 0 auto;
-  }
-  .member{
-    width:87%;
-  }
-  .sometani,.narita,.ootaki{
-    top: -77%;
-    left: 38%;
-  }
-  .manabu{
-    position: absolute;
-    top:-70%;
-    left:38%;
-  }
-
-}
-@media(max-width:760px){
-  .members-headding h1{
-    padding-top: 100px;
-    padding-bottom: 35px;
-    line-height: 40px;
-    font-size: 18px;
-  }
-  .members-headding p{
-    line-height: 19px;
-    font-size: 12px;
-  }
-  .member-text,.kind,.name{
-    line-height: 19px;
-    font-size: 12px;
-  }
-  .member{
-    border: solid 4px white;
-    vertical-align: top;
-    padding:40px 5px 10px;
-    margin: 200px 0 0 ;
-  }
-  .members-container{
-    width:100%;
-    margin: 0 auto;
-  }
-  .member-container{
     margin: 0 ;
   }
   .sometani,.narita,.ootaki{
@@ -1350,6 +1215,7 @@ header{
     height:120px;
   }
 }
+  
 
 
 /*------------------------------------------------------*/
