@@ -1520,6 +1520,7 @@ header{
     width:25%;
     height:auto;
     box-sizing: border-box;
+    max-width:200px;	  
   }
 }
 @media(max-width:760px){
