@@ -1198,21 +1198,164 @@ header{
 
 }
 /*-------------------------------------------------*/
+.members{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  color:white;
+}
+.sometani,.narita,.ootaki{
+  border-radius: 50%;
+  position: relative;
+  top:-200px;
+}
+.member{
+  width:290px;
+  display: inline-block;
+  border: solid 4px white;
+  margin:0 15px;
+  vertical-align: top;
+  padding:40px 40px 52px 40px;
+  margin-top: 200px;
+  height:280px;
+}
+.member-text{
+  text-align: left;
+}
 .member-container{
+  margin: 0 20px;
+}
+.manabu{
+  position: relative;
+  top:-200px;
+}
+.member-text,.kind,.name{
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 17px;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", ���C���I, Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}
+.name{
+  padding:8px 0;
+}
+.mana{
+  padding-bottom:30px;
+  height:300px;
+}
+.members-headding h1{
+  padding-top: 100px;
+  padding-bottom: 35px;
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 28px;
+}
+.members-headding p{
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 16px;
+}
+.kind,.name,.member-text{
+  position: relative;
+  top:-200px;
+}
+/*---------------------------------------------------------*/
+@media(max-width:1210px){
+  .members-headding h1{
+    padding-top: 100px;
+    padding-bottom: 35px;
+    line-height: 40px;
+    font-size: 24px;
+  }
+  .members-headding p{
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .member-text,.kind,.name{
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .sometani,.narita,.ootaki{
+    position: relative;
+  }
+  .member{
+    border: solid 4px white;
+    vertical-align: top;
+    padding:40px 40px 52px 40px;
+    margin-top: 200px;
+    height:220px;
+  }
+  .manabu{
+    position:relative;
+  }
+
+}
+@media(max-width:970px){
+  .members-container{
+    width:90%;
+    margin: 0 auto;
+  }
+  .member{
+    width:87%;
+  }
+  .sometani,.narita,.ootaki{
+    position: relative;
+
+  }
+  .manabu{
+    position: relative;
+  }
+  .member{
+    height:130px;
+  }
+
+}
+@media(max-width:760px){
+  .members-headding h1{
+    padding-top: 100px;
+    padding-bottom: 35px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .members-headding p{
+    line-height: 19px;
+    font-size: 12px;
+  }
+  .member-text,.kind,.name{
+    line-height: 19px;
+    font-size: 12px;
+  }
+  .member{
+    border: solid 4px white;
+    vertical-align: top;
+    padding:30px 5px 20px;
+    margin: 200px 0 0 ;
+    height: 150px;
+  }
+  .members-container{
+    width:100%;
+    margin: 0 auto;
+  }
+  .member-container{
     margin: 0 ;
   }
   .sometani,.narita,.ootaki{
     border-radius: 50%;
-    top: -55%;
-    left: 40%;
     width:120px;
     height:120px;
+    top:-130px;
   }
   .manabu{
-    top:-50%;
-    left:40%;
     width:120px;
     height:120px;
+    top:-130px;
+  }
+  .kind,.name,.member-text{
+    position: relative;
+    top:-120px;
+  }
+  .members{
+    background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbgsp.jpg);
   }
 }
   
