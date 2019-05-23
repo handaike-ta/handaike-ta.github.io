@@ -1585,7 +1585,7 @@ header{
   }
 }
 @media(max-width:478px){
-   .person-text{
+   .person-text p{
 	   font-size:14px;
 	   line-height:22px;
 	}	   
