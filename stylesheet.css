@@ -1596,7 +1596,8 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+  padding-bottom:50px;	
+} 
 .contents-container h1{
   font-weight: 600;
   line-height: 40px;
