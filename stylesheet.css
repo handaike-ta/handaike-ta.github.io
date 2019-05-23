@@ -1584,6 +1584,12 @@ header{
     padding-bottom: 40px;
   }
 }
+@media(max-width:478px){
+   .person-text{
+	   font-size:14px;
+	   line-height:22px;
+	}	   
+}	
 /*-----------------------------------------------------*/
 .contents{
   background-image: url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg);
